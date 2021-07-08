@@ -37,7 +37,7 @@ Now that you have the information needed from your organization, open the `okta-
   "auth_uri": "https://{yourOktaDomain}/oauth2/default/v1/authorize",
   "client_id": "{yourClientId}",
   "client_secret": "{yourClientSecret}",
-  "redirect_uris": "http://localhost:8080/authorization-code/callback",
+  "redirect_uri": "http://localhost:8080/authorization-code/callback",
   "issuer": "https://{yourOktaDomain}/oauth2/default",
   "token_uri": "https://{yourOktaDomain}/oauth2/default/v1/token",
   "token_introspection_uri": "https://{yourOktaDomain}/oauth2/default/v1/introspect",
