@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name='samples-python-flask',
-    version='0.1.0',
+    version='2.0.0',
     url='https://developer.okta.com',
     project_urls=OrderedDict((
         ('Code', 'https://github.com/okta/samples-python-flask'),
