@@ -18,7 +18,7 @@ def is_authorized(request):
     """Get access token from authorization header."""
     try:
         token = request.headers.get("Authorization").split("Bearer ")[1]
-        return is_access_token_valid(token, config["issuer"], config["client_id"])
+        return is_access_token_valid(token, config["issuer"])
     except Exception:
         return False
 
